@@ -1,0 +1,18 @@
+.grid{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 12px;
+height: 40vh;
+border: 2px solid black;
+
+
+}
+/* .image{
+height: 34vh;
+
+
+}
+.name{
+    height: 5vh;
+} */

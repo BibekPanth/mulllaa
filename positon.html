@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        display: inline;
+        list-style: circle  inside url('cccc.png');
+/* aba yeha circle vaneko cahi list shape ho ani inside vanko cahi list postionn ho ani url vaneko cahi list image jastai dot image circle image  */
+      }
+      header {
+        background-color: black;
+        color: aliceblue;
+        height: 70px;
+      }
+    p{
+        text-align: center;
+        border: 2px solid red;
+    }
+    .container{
+        background-color: aqua;
+        height: 50vh;
+        width: 50vw; 
+        margin: auto;
+        padding: 0 34px;
+        position: ;
+     }
+     .box{
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+         /* position: relative;  */
+         position: absolute;
+         /* absolute garim vani chai  */
+         /* top: ;
+         left: ;
+         right: ;
+          bottom: ; */
+         /*by default static ma chai top right left bottom chaldainw */
+/* agar hamle conatiner lai position: relative garom vanibox chai  CONTAINER ko respect ma kam garxa ; */
+/* agar hamle absoluute box lai garim vani chai box chai box ko parent ko respect ma ghumxa */
+    /* agar box lai chai position absolute garim vani box html ko respect ma move nagarerw chai contianer ko respect ma move garxa  */
+/* positon fixed lai chahi scrool gare pani farak pardainw  */
+
+/* postion sticky le chai tagdinxa kunai chij lai jastai header lai hamle scroll garim vani pani tehi chipkinxa*/
+
+/* agar hamle contianer lai pani position sticky ani cahi header lai pani position sticky dim vani containerr mathi jana sakxa tehi vayrew -ms-hyphenate-limit-lines: ; */
+/* z-index ko paryo garma yesma values 1 2 3 yestai rakhinxa agar hamle header ko z-index chai 1 rakhin vani pani header ko mathi nai hunxa tara conainer pani 1 rakhnw vayenw tektikai chodnu paryo ki jaslai mathi raknu mann xa tesko value cahi greator rakhnu paryo */
+
+}
+    .box2{
+        height: 200px;
+        width: 200px;
+        background-color:blue;
+
+
+    }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Contact us</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore,
+        culpa dolore perspiciatis nulla, saepe praesentium, earum quaerat ullam
+        incidunt nesciunt sunt alias?
+      </p>
+      <div class="box">I am a coder</div>
+      <div class="box2">I am box2</div>
+    </div>
+    <li-styl></li>
+  </body>
+</html>

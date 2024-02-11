@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+background-color: #E3EFFB;
+
+
+
+}
+
+.container{
+
+height: 700px;
+width: 100%;
+/* border: 1px solid red;  */
+
+display: flex;
+
+
+
+}
+
+
+
+header{
+
+
+display: flex;
+justify-content: space-around;
+ /* border: 1px solid black; */
+
+ align-items: center;
+ font-size: 30px;
+ color: orange;
+ height: 120px;
+ 
+
+}
+
+.organic{
+height: 100%;
+
+width: 50%;
+text-align: center;
+padding: 160px;
+
+
+}
+nav:hover{
+
+
+
+transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+/* background-color: aqua; */
+
+
+
+
+}
+
+
+
+
+
+
+
+

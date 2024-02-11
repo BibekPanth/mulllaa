@@ -1,0 +1,213 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+
+}
+body{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+nav{
+background-color: black;
+height: 100px;
+width: 100%;
+position: sticky;top: 0;
+  display: flex; 
+  justify-content: space-evenly;
+
+
+
+
+}
+
+label.logo{
+
+color: white;
+font-size: 35px;
+ padding: 0 100px; 
+font-weight: bold; 
+
+}
+nav ul{
+ 
+   
+    font-size: 20px;
+    display: flex;
+    margin-top: 43px;
+    margin-left: 20px;
+    
+    
+}
+
+nav ul li a {
+
+
+color: white;
+
+text-transform: uppercase;
+padding: 7px 13px;
+border-radius: 3px;
+
+
+
+}
+a:hover{
+
+background: #627c90;
+transition: .5s;
+
+
+
+}
+
+
+
+.image{
+
+background-image: url('foodlogo.jpg');
+background-repeat: no-repeat;
+height: 90vh;
+
+background-size: cover;
+/* border: 2px solid red; */
+ width: 100vw; 
+ position: fixed;
+ top: 103px;
+
+
+
+}
+
+.text{
+font-size: 35px;
+color:#c0c0c0;
+
+font-weight: bolder;
+margin:256px 0px 0px 90px;
+
+
+
+}
+.text b:hover{
+    color:orange;
+
+}
+
+
+    
+
+button{
+font-size: 20px;
+
+width: 180px;
+height: 43px;
+background-color: rgb(239, 167, 42);
+color:#100f0f;
+margin-top: 15px;
+font-weight: 600;
+margin-left:95px;
+
+
+}
+button:hover{
+
+
+background:linear-gradient(#e66465, #9198e5);
+
+}
+button:hover{
+    color:white;
+    border-radius:10px;
+    transition:0.5s;
+}
+
+.search{
+
+ width: 284px;
+  border-radius: 79px;
+  height: 46px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 30px;
+  display: inline-block;
+  margin-left: -30px;
+  
+
+}
+
+.grid{
+
+/* display: grid; */
+height: 2000px;
+margin-top: 50px;
+border: 2px solid red;
+
+    
+}
+.item1{
+
+
+
+
+}
+
+.fig1{
+border:2px solid black;
+
+height:20%;
+
+}
+
+.fig2{
+
+    border:2px solid black;
+
+    height:20%;
+
+}
+.fig3{
+
+    border:2px solid black;
+
+    height:20%;
+
+
+}
+.fig4{
+    border:2px solid black;
+
+    height:20%;
+
+
+}
+
+.fig4{
+
+
+
+
+    border:2px solid black;
+
+height:20%;
+}
+.fig5{
+
+    border:2px solid black;
+
+    height:20%;
+
+
+}
+.fig6{
+
+
+
+    border:2px solid black;
+
+height:20%;
+}
